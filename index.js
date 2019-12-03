@@ -9,8 +9,8 @@ let returnFirstTwoDrivers = function(driver){
 
 let returnLastTwoDrivers = function(driver){
   let two = [];
-  for(let i = drivers.length - 2; i <= drivers.length - 1; i++){
-    lastTwo.push(drivers[i]);
+  for(let i = driver.length - 2; i <= driver.length - 1; i++){
+    two.push(drivers[i]);
   }
   return lastTwo;
 }
