@@ -10,12 +10,12 @@ let returnFirstTwoDrivers = function(driver){
 let returnLastTwoDrivers = function(driver){
   let two = [];
   for(let i = driver.length - 2; i <= driver.length - 1; i++){
-    two.push(drivers[i]);
+    two.push(driver[i]);
   }
-  return lastTwo;
+  return two;
 }
 
-let selectingDrivers = [returnFirstTwoDrivers,returnLastTwoDrivers];
+let select = [returnFirstTwoDrivers,returnLastTwoDrivers];
 
 function createFareMultiplier(num){
   return function(){
