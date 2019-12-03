@@ -7,7 +7,7 @@ let returnFirstTwoDrivers = function(drivers){
   return firstTwo;
 }
 
-const returnLastTwoDrivers = function(drivers){
+let returnLastTwoDrivers = function(drivers){
   let lastTwo = [];
   for(let i = drivers.length - 2; i <= drivers.length - 1; i++){
     lastTwo.push(drivers[i]);
@@ -15,7 +15,7 @@ const returnLastTwoDrivers = function(drivers){
   return lastTwo;
 }
 
-const selectingDrivers = [returnFirstTwoDrivers,returnLastTwoDrivers];
+let selectingDrivers = [returnFirstTwoDrivers,returnLastTwoDrivers];
 
 function createFareMultiplier(num){
   return function(){
@@ -23,7 +23,7 @@ function createFareMultiplier(num){
   }
 }
 
-const fareDoubler = function(fare){
+let fareDoubler = function(fare){
   return fare * 2;
 }
 
