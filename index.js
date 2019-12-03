@@ -19,7 +19,7 @@ let select = [returnFirstTwoDrivers,returnLastTwoDrivers];
 
 function createFareMultiplier(num){
   return function(){
-    return num * num;
+    return digit * digit;
   }
 }
 
