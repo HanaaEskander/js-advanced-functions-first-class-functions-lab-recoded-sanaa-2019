@@ -31,6 +31,6 @@ let fareTripler = function(fare){
   return fare * 3;
 }
 
-function selectDifferentDrivers(drivers,returnFirstTwoDrivers){
-  return returnFirstTwoDrivers(drivers);
+function selectDifferentDrivers(driver,returnFirstTwoDrivers){
+  return returnFirstTwoDrivers(driver);
 }
