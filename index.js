@@ -27,7 +27,7 @@ let fareDoubler = function(fare){
   return fare * 2;
 }
 
-const fareTripler = function(fare){
+let fareTripler = function(fare){
   return fare * 3;
 }
 
