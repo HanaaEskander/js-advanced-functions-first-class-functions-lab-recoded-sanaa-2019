@@ -2,7 +2,7 @@
 let returnFirstTwoDrivers = function(driver){
   let two= [];
   for (let i = 0; i <= 1; i++) {
-    two.push(drivers[i]);
+    two.push(driver[i]);
   }
   return two;
 }
